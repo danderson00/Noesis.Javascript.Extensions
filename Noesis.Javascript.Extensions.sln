@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{7F5EA1CA-D74A-4000-B981-9B9904EE7120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{73194006-2FA6-47C0-B8B3-E765BA692959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{63062BBC-322A-4DFC-B725-44A89FBBC6F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{6B1A631A-A629-49A1-93D7-F618B6DAF78B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Noesis.Javascript", "Noesis.Javascript", "{E45018BE-1A71-4BDC-9BDA-6DEFEE271736}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\Noesis.Javascript\msvcp100.dll = Dependencies\Noesis.Javascript\msvcp100.dll
+		Dependencies\Noesis.Javascript\msvcr100.dll = Dependencies\Noesis.Javascript\msvcr100.dll
+		Dependencies\Noesis.Javascript\Noesis.Javascript.dll = Dependencies\Noesis.Javascript\Noesis.Javascript.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F5EA1CA-D74A-4000-B981-9B9904EE7120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5EA1CA-D74A-4000-B981-9B9904EE7120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5EA1CA-D74A-4000-B981-9B9904EE7120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5EA1CA-D74A-4000-B981-9B9904EE7120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73194006-2FA6-47C0-B8B3-E765BA692959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73194006-2FA6-47C0-B8B3-E765BA692959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73194006-2FA6-47C0-B8B3-E765BA692959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73194006-2FA6-47C0-B8B3-E765BA692959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63062BBC-322A-4DFC-B725-44A89FBBC6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63062BBC-322A-4DFC-B725-44A89FBBC6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63062BBC-322A-4DFC-B725-44A89FBBC6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63062BBC-322A-4DFC-B725-44A89FBBC6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E45018BE-1A71-4BDC-9BDA-6DEFEE271736} = {6B1A631A-A629-49A1-93D7-F618B6DAF78B}
+	EndGlobalSection
+EndGlobal
