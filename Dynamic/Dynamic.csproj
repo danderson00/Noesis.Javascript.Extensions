@@ -35,8 +35,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Noesis.Javascript">
-      <HintPath>..\Dependencies\Noesis.Javascript\Noesis.Javascript.dll</HintPath>
+    <Reference Include="Noesis.Javascript, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Noesis.Javascript.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
