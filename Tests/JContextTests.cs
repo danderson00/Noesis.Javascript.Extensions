@@ -7,7 +7,7 @@ using NUnit.Framework;
 using Newtonsoft.Json;
 using Noesis.Javascript.Dynamic;
 
-namespace Noesis.Javascript.Extensions.Tests
+namespace Noesis.Javascript.Dynamic.Tests
 {
     [TestFixture]
     public class JContextTests

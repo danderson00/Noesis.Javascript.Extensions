@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FluentAssertions;
+﻿using System.Collections.Generic;
 using NUnit.Framework;
-using Noesis.Javascript.Dynamic;
 
-namespace Noesis.Javascript.Extensions.Tests
+namespace Noesis.Javascript.Dynamic.Tests
 {
     [TestFixture]
     public class DictionaryConverterTests
