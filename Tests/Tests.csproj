@@ -29,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentAssertions">
@@ -71,10 +72,6 @@
     <ProjectReference Include="..\Dynamic\Dynamic.csproj">
       <Project>{7f5ea1ca-d74a-4000-b981-9b9904ee7120}</Project>
       <Name>Dynamic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Extensions\Extensions.csproj">
-      <Project>{73194006-2fa6-47c0-b8b3-e765ba692959}</Project>
-      <Name>Extensions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
